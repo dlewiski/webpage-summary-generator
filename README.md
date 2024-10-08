@@ -22,7 +22,7 @@ npm install
 Run the script from the command line, providing the URL of the webpage you want to summarize:
 
 ```bash
-node script.js -u <url>
+node summarize-webpage.js -u <url>
 ```
 
 Replace `<url>` with the actual URL of the webpage.
@@ -30,7 +30,7 @@ Replace `<url>` with the actual URL of the webpage.
 Example:
 
 ```bash
-node script.js -u https://example.com/article
+node summarize-webpage.js -u https://example.com/article
 ```
 
 The script will fetch the webpage content, generate a summarization prompt, and copy it to your clipboard. You can then paste this prompt into a text editor or a language model for further processing.
